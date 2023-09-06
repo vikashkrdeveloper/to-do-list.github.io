@@ -35,6 +35,7 @@ form.addEventListener('submit', (event) => {
             localStorage.setItem(key, JSON.stringify(newData));
         }
         saveData("works", workobj);
+                inputdata.value=""
         showdata()
 
 
