@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body onload="loading()">
+    <div class="loading">
+        <div class="loader-con"></div>
+    </div>
+    <main class="main-container">
+        <div class="mainbox-container">
+            <h1>Hii vikash kumar</h1>
+            <div class="taskwrite-container">
+                <form class="input-box-container" id="form">
+                    <input type="text" name="todolist" id="todolist" placeholder="Add a task.">
+                    <input type="submit" value=" Got This!" id="todolistbutton">
+                </form>
+            </div>
+            <div class="show-message-container">
+                <div class="show-message-box">
+                    <div class="date-show-container">
+                        <div class="date-show-box">
+                            <p>Date : <span class="date-show"></span></p>
+                        </div>
+                    </div>
+                    <div class="show-message-box-container">
+
+                    </div>
+                    <div class="popup-container">
+                        <div class="popup-box-container">
+                            <div class="cancel-button-container">
+                                <span class="material-symbols-outlined closed">
+                                    close
+                                </span>
+                            </div>
+                            <form class="input-boxs-container" id="updatedata">
+                                <input type="text" name="update" id="update" placeholder="Update a task.">
+                                <input type="submit" value=" Update" id="todolistbutton">
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
